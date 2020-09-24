@@ -1,0 +1,57 @@
+[
+  {
+    "description":"获取cookies",
+    "request":{
+      "method":"get",
+      "uri":"/get/cookies"
+    },
+    "response":{
+      "cookies":{
+        "test":"true"
+      },
+      "text":"get cookies"
+    }
+  },
+  {
+    "description":"post json par",
+    "request":{
+      "method":"post",
+      "uri":"/post/par",
+      "cookies":{
+        "test":"true"
+      },
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "name":"zhangsan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "json":{
+        "name":"张三"
+      }
+    }
+  },
+  {
+    "description":"post forms par",
+    "request":{
+      "method":"post",
+      "uri":"/post/parF",
+      "cookies":{
+        "test":"true"
+      },
+      "forms":{
+        "name":"zhangsan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"post forms request"
+    }
+  }
+
+
+
+]
