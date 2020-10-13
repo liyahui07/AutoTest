@@ -11,6 +11,7 @@
     <modules>
         <module>chapter9</module>
         <module>chapter10</module>
+        <module>chapter11</module>
     </modules>
 
     <repositories>
