@@ -14,7 +14,7 @@ public class Demo1 {
 
     @GetMapping("/getUserCount")
     public Integer getUserCount(){
-        int i = sessionTemplate.selectOne("selectUC");
+        int i = sessionTemplate.selectOne("test1.selectUC");
         return i;
     }
 }
