@@ -7,5 +7,9 @@ public class User {
     private String username;
     private String password;
     private String age;
-    private int id;
+    private String sex;
+    private String permission;
+    private String isdelete;
+    private String expected;
+
 }

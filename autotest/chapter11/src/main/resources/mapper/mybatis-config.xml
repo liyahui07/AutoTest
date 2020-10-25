@@ -6,4 +6,17 @@
     <select id="selectUC" resultType="Integer">
         select count(*) from user
     </select>
+
+    <insert id="insertUSER">
+       insert  into  user(username,password,age,sex,permission,isdelete)
+       values ("张三","123456","1","1","1","0")
+    </insert>
+
+    <update id="updateUser">
+        update user set username = "zhangsan" where username = "张三"
+    </update>
+
+    <delete id="deleteUser">
+        delete from USER where username = "zhangsan"
+    </delete>
 </mapper>

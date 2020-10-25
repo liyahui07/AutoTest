@@ -3,9 +3,9 @@ package com.course.model;
 import lombok.Data;
 
 @Data
-public class User {
+public class LoginCase {
+
     private String username;
     private String password;
-    private String age;
-    private int id;
+    private String expected;
 }
