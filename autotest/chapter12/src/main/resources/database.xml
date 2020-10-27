@@ -16,6 +16,6 @@
 
     </environments>
     <mappers>
-        <mapper resource="mapper/*.xml"/>
+        <mapper resource="mapper/testcase.xml"/>
     </mappers>
 </configuration>

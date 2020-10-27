@@ -2,7 +2,11 @@
 <suite name="testcase">
     <test name="testChapter12">
         <classes>
-            <class/>
+            <class name="com.course.cases.LoginTest"/>
+            <class name="com.course.cases.GetUserInfoTest"/>
+            <class name="com.course.cases.AddUserTest"/>
+            <class name="com.course.cases.UpdateUserTest"/>
+
         </classes>
     </test>
 </suite>

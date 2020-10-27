@@ -6,9 +6,9 @@ import java.util.ResourceBundle;
 
 public class ConfigFile {
 
-    public ResourceBundle bundlel;
+    public static ResourceBundle bundlel;
 
-    public String getUrl(InterfaceName interfaceName){
+    public static String getUrl(InterfaceName interfaceName){
         bundlel = ResourceBundle.getBundle("application");
         String url = bundlel.getString("test.url");
         String uri = "";
