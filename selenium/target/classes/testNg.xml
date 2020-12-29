@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suite">
+    <test name="test">
+        <parameter name="username" value="17610463927"></parameter>
+        <parameter name="password" value="176Lyh1046"></parameter>
+        <parameter name="url" value="https://www.imooc.com/user/newlogin"></parameter>
+        <classes>
+            <class name="com.selenium.cases.LoginCase">
+                <methods>
+                    <include name="beforeTest"/>
+                    <include name="loginSuccess"/>
+                    <include name="afterTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="test2">
+        <parameter name="username1" value="17610463922"></parameter>
+        <parameter name="password1" value="1761046"></parameter>
+        <parameter name="url" value="https://www.imooc.com/user/newlogin"></parameter>
+        <classes>
+            <class name="com.selenium.cases.LoginCase">
+                <methods>
+                    <include name="beforeTest"/>
+                    <include name="loginFail"/>
+                    <include name="afterTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

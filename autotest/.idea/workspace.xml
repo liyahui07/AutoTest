@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4ccfc74-f4dc-4715-86dc-e97a8ccbf9c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter12/src/main/java/com/course/cases/AddUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter12/src/main/java/com/course/cases/GetUserInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter12/src/main/java/com/course/cases/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter12/src/main/java/com/course/cases/UpdateUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter12/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter12/src/main/java/com/course/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter12/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter12/src/main/resources/database.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/src/main/resources/database.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter12/src/main/resources/mapper/testcase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/src/main/resources/mapper/testcase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter12/src/main/resources/testNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/src/main/resources/testNg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c4ccfc74-f4dc-4715-86dc-e97a8ccbf9c2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/com.autotest.chapter9/target/" />
@@ -112,7 +95,7 @@
     <session id="1968461680">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.opened" value="5" />
@@ -141,7 +124,7 @@
         <counts>
           <entry key="java" value="1890" />
           <entry key="properties" value="152" />
-          <entry key="txt" value="39" />
+          <entry key="txt" value="41" />
           <entry key="xml" value="1009" />
           <entry key="yml" value="168" />
         </counts>
@@ -149,7 +132,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1890" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="Properties" value="152" />
           <entry key="SQL" value="2" />
           <entry key="XML" value="1007" />
@@ -322,58 +305,6 @@
             <path>
               <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
               <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
               <item name="chapter13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -439,7 +370,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603812963476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603813212156" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../新建文件夹/autotest/chapter13" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -588,7 +519,7 @@
       <workItem from="1602689547941" duration="612000" />
       <workItem from="1603031076940" duration="2864000" />
       <workItem from="1603635799224" duration="2310000" />
-      <workItem from="1603809840241" duration="3077000" />
+      <workItem from="1603809840241" duration="3391000" />
     </task>
     <task id="LOCAL-00001" summary="chapter 11 update">
       <created>1602690094784</created>
@@ -604,7 +535,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603640171552</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chapter 12 update">
+      <created>1603812939172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603812939172</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chapter 13 update">
+      <created>1603813192831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603813192831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -640,7 +585,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22042000" />
+    <option name="totallyTimeSpent" value="22356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,10 +597,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="119" width="1603" height="902" extended-state="0" />
-    <editor active="true" />
+    <frame x="315" y="95" width="1603" height="902" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25793907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25793907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -672,7 +616,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21052632" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4127199" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4126344" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32963988" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" />
@@ -733,7 +677,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chapter 11 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 11 update" />
+    <MESSAGE value="chapter 12 update" />
+    <MESSAGE value="chapter 13 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 13 update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/com.autotest.chapter9/pom.xml" />
