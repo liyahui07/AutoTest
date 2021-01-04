@@ -1,7 +1,9 @@
 package com.selenium.util;
 
 import com.google.common.io.Files;
+import com.selenium.cases.BaseCase;
 import com.selenium.cases.LoginCase;
+import com.selenium.page.BasePage;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -18,8 +20,8 @@ public class TestListener extends TestListenerAdapter {
     @Override
     public void onTestFailure(ITestResult var1) {
 
-        LoginCase loginCase = (LoginCase) var1.getInstance();
-        WebDriver driver = loginCase.driver;
+        BaseCase baseCase= (BaseCase) var1.getInstance();
+        WebDriver driver = baseCase.driver;
 
         this.currentScreen(driver);
 
@@ -30,10 +32,10 @@ public class TestListener extends TestListenerAdapter {
         File screenshotAs = ((RemoteWebDriver) driver).getScreenshotAs(OutputType.FILE);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy_MM__dd HH_mm_ss");
         String date = simpleDateFormat.format(new Date());
-        String path = "F:\\git\\gittest1\\AutoTest\\selenium\\src\\main\\java\\com\\selenium\\png";
+        String path = "/Users/liyahui/IdeaProjects/gitTest/AutoTest/selenium/src/main/java/com/selenium";
         String phoneName = date + "_" +driver.getTitle();
         try {
-            Files.copy(screenshotAs, new File(path + phoneName + ".png"));
+            Files.copy(screenshotAs, new File(path +"/"+ phoneName + ".png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

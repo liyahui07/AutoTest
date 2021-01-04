@@ -15,7 +15,7 @@ public class LoginCase {
     @Parameters("url")
     @BeforeTest
     public void beforeTest(String url) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","E:\\learning\\selenium\\chrome\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/Applications/test/TestTools/selenium/chromedriver");
         driver = new ChromeDriver();
         loginHandle = new LoginHandle(driver);
         driver.get(url);
